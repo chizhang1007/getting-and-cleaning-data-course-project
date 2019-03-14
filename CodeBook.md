@@ -1,5 +1,5 @@
 # *Getting and Cleaning Data* course project
-# Code Book for tifydata.txt
+# Code Book for `tifydata.txt`
 
 ## Identifiers
 
