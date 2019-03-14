@@ -8,7 +8,7 @@
 
 ## Measurements
 
-- Average value of time-domain body acceleration in the X, Y, Z directions:
+- Mean of time-domain body acceleration in the X, Y, Z directions:
   * `TimeDomainBodyAcceleration.Mean...X`
   * `TimeDomainBodyAcceleration.Mean...Y`
   * `TimeDomainBodyAcceleration.Mean...Z`
@@ -18,7 +18,7 @@
   * `TimeDomainBodyAcceleration.StandardDeviation...Y`
   * `TimeDomainBodyAcceleration.StandardDeviation...Z`
   
-- Average value of time-domain gravity acceleration in the X, Y, Z directions:
+- Mean of time-domain gravity acceleration in the X, Y, Z directions:
   * `TimeDomainGravityAcceleration.Mean...X`
   * `TimeDomainGravityAcceleration.Mean...Y`
   * `TimeDomainGravityAcceleration.Mean...Z`
@@ -28,7 +28,7 @@
   * `TimeDomainGravityAcceleration.StandardDeviation...Y`
   * `TimeDomainGravityAcceleration.StandardDeviation...Z`
   
-- Average value of time-domain body acceleration jerk in the X, Y, Z directions:
+- Mean of time-domain body acceleration jerk in the X, Y, Z directions:
   * `TimeDomainBodyAccelerationJerk.Mean...X`
   * `TimeDomainBodyAccelerationJerk.Mean...Y`
   * `TimeDomainBodyAccelerationJerk.Mean...Z`
@@ -38,7 +38,7 @@
   * `TimeDomainBodyAccelerationJerk.StandardDeviation...Y`
   * `TimeDomainBodyAccelerationJerk.StandardDeviation...Z`
   
-- Average value of time-domain body angular velocity in the X, Y, Z directions:
+- Mean of time-domain body angular velocity in the X, Y, Z directions:
   * `TimeDomainBodyAngularSpeed.Mean...X`
   * `TimeDomainBodyAngularSpeed.Mean...Y`
   * `TimeDomainBodyAngularSpeed.Mean...Z`
@@ -48,7 +48,7 @@
   * `TimeDomainBodyAngularSpeed.StandardDeviation...Y`
   * `TimeDomainBodyAngularSpeed.StandardDeviation...Z`
   
-- Average value of time-domain body angular acceleration in the X, Y, Z directions:
+- Mean of time-domain body angular acceleration in the X, Y, Z directions:
   * `TimeDomainBodyAngularAccerlation.Mean...X`
   * `TimeDomainBodyAngularAccerlation.Mean...Y`
   * `TimeDomainBodyAngularAccerlation.Mean...Z`
@@ -58,23 +58,68 @@
   * `TimeDomainBodyAngularAccerlation.StandardDeviation...Y`
   * `TimeDomainBodyAngularAccerlation.StandardDeviation...Z`
   
-- Average value of time-domain body acceleration ,agnitude:
+- Mean and standard deviation of time-domain body acceleration magnitude:
   * `TimeDomainBodyAccelerationMagnitude.Mean`
-  
-- Standard deviation of time-domain body acceleration magnitude:
   * `TimeDomainBodyAccelerationMagnitude.StandardDeviation`
   
-- Average value of time-domain gravity acceleration magnitude
+- Mean and standard deviation of time-domain gravity acceleration magnitude:
   * `TimeDomainGravityAccelerationMagnitude.Mean`
-  
-- Standard deviation of time-domain gravity acceleration magnitude
   * `TimeDomainGravityAccelerationMagnitude.StandardDeviation`
   
-- Average value of time-domain body acceleration jerk magnitude
+- Mean and standard deviation of time-domain body acceleration jerk magnitude:
   * `TimeDomainBodyAccelerationJerkMagnitude.Mean`
-  
-- Standard deviation of time-domain body acceleration jerk magnitude
   * `TimeDomainBodyAccelerationJerkMagnitude.StandardDeviation`
   
-- Average value of time-domain body angular speed magnitude
+- Mean and standard deviation of time-domain body angular speed magnitude:
   * `TimeDomainBodyAngularSpeedMagnitude.Mean`
+  * `TimeDomainBodyAngularSpeedMagnitude.StandardDeviation`
+  
+- Mean and standard deviation of time-domain body angular acceleration magnitude:
+  * `TimeDomainBodyAngularAccerlationMagnitude.Mean`
+  * `TimeDomainBodyAngularAccerlationMagnitude.StandardDeviation`
+  
+- Mean of frequency-domain body acceleration in the X, Y, Z directions:
+  * `FrequencyDomainBodyAcceleration.Mean...X`
+  * `FrequencyDomainBodyAcceleration.Mean...Y`
+  * `FrequencyDomainBodyAcceleration.Mean...Z`
+  
+- Standard deviation of frequency-domain body acceleration in the X, Y, Z directions:
+  * `FrequencyDomainBodyAcceleration.StandardDeviation...X`
+  * `FrequencyDomainBodyAcceleration.StandardDeviation...Y`
+  * `FrequencyDomainBodyAcceleration.StandardDeviation...Z`
+  
+- Mean of frequency-domain body acceleration jerk in the X, Y, Z directions:
+  * `FrequencyDomainBodyAccelerationJerk.Mean...X`
+  * `FrequencyDomainBodyAccelerationJerk.Mean...Y`
+  * `FrequencyDomainBodyAccelerationJerk.Mean...Z`
+  
+- Standard deviation of frequency-domain body acceleration jerk in the X, Y, Z directions:
+  * `FrequencyDomainBodyAccelerationJerk.StandardDeviation...X`
+  * `FrequencyDomainBodyAccelerationJerk.StandardDeviation...Y`
+  * `FrequencyDomainBodyAccelerationJerk.StandardDeviation...Z`
+  
+- Mean of frequency-domiain body angular speed in the X, Y, Z directions:
+  * `FrequencyDomainBodyAngularSpeed.Mean...X`
+  * `FrequencyDomainBodyAngularSpeed.Mean...Y`
+  * `FrequencyDomainBodyAngularSpeed.Mean...Z`
+  
+- Standard deviation of frequency-domiain body angular speed in the X, Y, Z directions:
+  * `FrequencyDomainBodyAngularSpeed.StandardDeviation...X`
+  * `FrequencyDomainBodyAngularSpeed.StandardDeviation...Y`
+  * `FrequencyDomainBodyAngularSpeed.StandardDeviation...Z`
+  
+- Mean and standard deviation of frequency-domain body acceleration magnitude:
+  * `FrequencyDomainBodyAccelerationMagnitude.Mean`
+  * `FrequencyDomainBodyAccelerationMagnitude.StandardDeviation`
+  
+- Mean and standard deviation of frequency-domain body acceleration jerk magnitude:
+  * `FrequencyDomainBodyBodyAccelerationJerkMagnitude.Mean`
+  * `FrequencyDomainBodyBodyAccelerationJerkMagnitude.StandardDeviation`
+  
+- Mean and standard deviation of frequency-domain body angular speed magnitude:
+  * `FrequencyDomainBodyBodyAngularSpeedMagnitude.Mean`
+  * `FrequencyDomainBodyBodyAngularSpeedMagnitude.StandardDeviation`
+  
+- Mean and standard deviation of frequency-domain body angular acceleration magnitude:
+  * `FrequencyDomainBodyBodyAngularAccerlationMagnitude.Mean`
+  * `FrequencyDomainBodyBodyAngularAccerlationMagnitude.StandardDeviation`
